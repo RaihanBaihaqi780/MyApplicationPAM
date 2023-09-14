@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daftar">
+
+    <ImageView
+        android:id="@+id/g_rectagle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/green_rectagle" />
+
+    <ImageView
+        android:id="@+id/g_rectagle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        app:layout_constraintBottom_toTopOf="@+id/g_rectagle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/green_rectagle" />
+
+    <TextView
+        android:id="@+id/textMasuk"
+        android:layout_width="66dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/masuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textEmail"
+        app:layout_constraintStart_toStartOf="@+id/g_rectagle1" />
+
+    <TextView
+        android:id="@+id/textViewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/g_rectagle2"
+        app:layout_constraintStart_toStartOf="@+id/g_rectagle2" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/g_rectagle1"
+        app:layout_constraintEnd_toEndOf="@+id/g_rectagle1"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="@+id/g_rectagle1"
+        app:layout_constraintTop_toTopOf="@+id/g_rectagle1"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/textPass"
+        android:layout_width="213dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="197dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/g_rectagle2"
+        app:layout_constraintEnd_toEndOf="@+id/g_rectagle2"
+        app:layout_constraintStart_toStartOf="@+id/g_rectagle2"
+        app:layout_constraintTop_toTopOf="@+id/g_rectagle2"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/textNoAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/g_rectagle2"
+        app:layout_constraintTop_toBottomOf="@+id/g_rectagle2" />
+
+    <TextView
+        android:id="@+id/textForPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/g_rectagle2"
+        app:layout_constraintTop_toBottomOf="@+id/g_rectagle2" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:background="@null"
+        android:contentDescription="@string/masuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g_rectagle2"
+        app:srcCompat="@drawable/button_masuk" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMasuk"
+        app:srcCompat="@drawable/button_google" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFaceBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonGoogle"
+        app:srcCompat="@drawable/button_facebook" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
