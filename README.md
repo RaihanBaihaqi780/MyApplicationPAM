@@ -2,7 +2,7 @@
 21537144042 Raihan Baihaqi  
 21537144052 Muhammad Elang Surya Lesmana
 
-# Minimum FItur Projek
+# Minimum Fitur Projek
 Fitur Register
 Fitur Login menggunakan Room Database 
 Fitur Beranda untuk Consume API
