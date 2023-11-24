@@ -17,7 +17,7 @@ https://www.figma.com/file/qMhwlwK31Ey4EfcM1JoPg1/Login-page-apk?type=design&nod
 Layouting XML✅(Tampilan Login dan Register)  
 Splash Screen ✅ (Splash Screen, Login, Register, Home)  
 Button Login, Register ✅  
-Nav Home ❌
+Nav Home ❌  
 Android Activity Lifecycle  
 ViewModel dan LiveData  
 RecycleView  
@@ -27,7 +27,7 @@ Dependency Injection & Fitur Login
 Consume API with KOIN Dependency Injection & Fitur Home  
 
 [GCR]Register Page yang dapat menyimpan data user di Local/Room Database(Tabel User:UID, Nama, Email,Password)  
-[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) (Minimum pengerjaan adalah tampilan home yang terhubung dengan API)  
+[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) (Minimum         pengerjaan adalah tampilan home yang terhubung dengan API)  
 [GCR]Fitur Login menggunakan Room Database()  
 [GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) dan menggunakan Dependency Injection (Minimum pengerjaan adalah tampilan home yang terhubung dengan API menggunakan Dependency Injection)  
 
