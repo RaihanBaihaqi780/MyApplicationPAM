@@ -2,6 +2,15 @@
 21537144042 Raihan Baihaqi  
 21537144052 Muhammad Elang Surya Lesmana
 
+# Minimum FItur Projek
+Fitur Register
+Fitur Login menggunakan Room Database 
+Fitur Beranda untuk Consume API
+-Requirements
+Menggunakan Bahasa Pemrograman Kotlin
+Menggunakan Architecture MVVM (Model-View-ViewModel)
+Menggunakan Dependency Injection
+
 # Progres
 Figma design UI✅  
 https://www.figma.com/file/qMhwlwK31Ey4EfcM1JoPg1/Login-page-apk?type=design&node-id=0-1&mode=design&t=AzvEiOxzmqChyIx5-0  
