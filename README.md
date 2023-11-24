@@ -19,7 +19,7 @@ Splash Screen ✅ (Splash Screen, Login, Register, Home)
 Button Login, Register ✅  
 Nav Home ❌
 Android Activity Lifecycle
-ViewModel dan LiveData
+ViewModel dan LiveData  
 RecycleView
 Consume API & Room DB
 Navigation & Fitur Register
