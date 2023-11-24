@@ -3,13 +3,13 @@
 21537144052 Muhammad Elang Surya Lesmana
 
 # Minimum Fitur Projek
-Fitur Register
-Fitur Login menggunakan Room Database 
-Fitur Beranda untuk Consume API
--Requirements
-Menggunakan Bahasa Pemrograman Kotlin
-Menggunakan Architecture MVVM (Model-View-ViewModel)
-Menggunakan Dependency Injection
+Fitur Register  
+Fitur Login menggunakan Room Database  
+Fitur Beranda untuk Consume API  
+-Requirements  
+Menggunakan Bahasa Pemrograman Kotlin  
+Menggunakan Architecture MVVM (Model-View-ViewModel)  
+Menggunakan Dependency Injection  
 
 # Progres
 Figma design UI✅  
@@ -26,10 +26,10 @@ Navigation & Fitur Register
 Dependency Injection & Fitur Login  
 Consume API with KOIN Dependency Injection & Fitur Home  
 
-[GCR]Register Page yang dapat menyimpan data user di Local/Room Database(Tabel User:UID, Nama, Email,Password)
-[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) (Minimum pengerjaan adalah tampilan home yang terhubung dengan API)
-[GCR]Fitur Login menggunakan Room Database()
-[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) dan menggunakan Dependency Injection (Minimum pengerjaan adalah tampilan home yang terhubung dengan API menggunakan Dependency Injection)
+[GCR]Register Page yang dapat menyimpan data user di Local/Room Database(Tabel User:UID, Nama, Email,Password)  
+[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) (Minimum pengerjaan adalah tampilan home yang terhubung dengan API)  
+[GCR]Fitur Login menggunakan Room Database()  
+[GCR]List Item menggunakan Recycler View dengan  menggunakan data dari API (consume API) dan menggunakan Dependency Injection (Minimum pengerjaan adalah tampilan home yang terhubung dengan API menggunakan Dependency Injection)  
 
 # Kesulitan
 Mengalami kesulitan dalam menggunakan berbagai fitur dan alat yang tersedia di Android Studio, serta dalam mengelola berbagai folder yang diperlukan untuk menjalankan proyek. Kesulitan ini berakibat banyaknya error yang muncul, sehingga desain yang seharusnya tampil tidak dapat muncul.  
